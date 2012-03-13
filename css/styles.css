@@ -1,0 +1,492 @@
+body {
+	text-align: center;
+	font: normal 11px/18px verdana, arial, tahoma, sans-serif;
+	padding-top: 10px;
+	background-repeat: repeat;
+}
+
+.pageHeader {
+    margin: 20px 0 20px 0;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+}
+
+td.main {
+    width: 640px;
+    border-spacing: 0;
+}
+
+.outerTable {
+	border: 10px solid #FFFFFF;
+	background: #fff url("../images/sidebar.gif") repeat-y;
+	background-position: 0 0;
+	margin: 0 auto;
+	text-align: left;
+	width:640px;
+}
+
+#header {
+}
+
+#headerSmall {
+	width: 640px;
+	height: 176px;
+	background-position: right top;
+	background-color: #000;
+	background-image: url(../images/header_small.jpg);
+	background-repeat: no-repeat;
+}
+
+#sidebar {
+    width: 130px;
+    float:left;
+    background-color: #ccc;
+    border-top: 1px solid #fff;
+    font: normal 10px/18px verdana, arial, tahoma, sans-serif;
+    padding: 8px;
+    text-align: center;
+}
+
+.sidebaritem {
+    padding: 6px 0 6px 0;
+    border-top: 1px solid lightgrey;
+    text-align: left;
+}
+
+#content {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+    text-align: left;
+}
+
+#contentAdmin {
+	width: 620px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+img {
+border: none;
+}
+
+a img {
+margin-bottom: 20px;
+border: 1px solid #FFF;
+}
+
+a:hover img {
+}
+
+#navcontainer {
+    margin: 2px 0 2px 0;
+    padding: 0;
+    width: 100%;
+    border-spacing: 0;
+}
+
+div.footer {
+    border-top: 1px solid lightgrey;
+}
+
+.navbutton:hover {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.white {
+    color: #FFF;
+}
+
+div.footer {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    width: 640px;
+    padding: 6px 0 6px 0;
+    margin: 0 0 6px 0;
+}
+
+.navbutton {
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    text-align: center;
+    background-color: #C60;
+    width: 20%;
+    font-size: 1.1em;
+}
+
+#navcontainer ul
+{
+border: 0;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li
+{
+display: block;
+float: left;
+text-align: center;
+padding: 0;
+margin: 0;
+}
+
+/* Sets the style for unvisited links. */
+a,  a:link {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Sets the style for visited links. */
+a:visited {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Sets the style for links on mouseover. */
+a:hover {
+  color: #000;
+}
+/* Sets the style for a link that has focus. */
+a:focus {
+  color: #000;
+}
+/* Sets the style for a link that is being activated/clicked. */
+a:active {
+  color: #000;
+}
+
+
+.navstyle {
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.navstyle a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+.navstyle a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.navstyle a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.navstyle a:focus {
+  color: #FFFFFF;
+}
+
+.navstyle a:active {
+  color: #FFFFFF;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+	border: thin solid #999999;
+	padding: 6px;
+	background-color: #666666;
+}
+
+.right_border {
+	background-image: url(../images/right_page_border.gif);
+	background-repeat: repeat-y;
+	
+}
+.left_border {
+	background-image: url(../images/left_page_border.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.head_bg {
+	background-image: url(../images/world_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main_bg {
+	background-image: url(../images/top.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.main_botbg {
+	background-image: url(../images/bot.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.box_bg {
+	background-image: url(../images/box_bg.gif);
+	background-repeat: repeat-x;
+	background-position: right top;
+}
+
+.l_nav_bg {
+	background-image: url(../images/left.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+
+.r_nav_bg {
+	background-image: url(../images/right.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+.page_bg {
+	background-image: url(../images/page_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.errorStyle {
+	color:#FF0000;
+	font-weight:bold; 
+}
+
+.successStyle {
+	color:#006600; 
+	font-weight:bold; 
+}
+
+.mediumText {
+	font-size: 1.1em; 
+}
+
+.largeText {
+	font-size: 1.3em; 
+}
+
+.smallText {
+	font-size: .8em;
+}
+
+.smallerText {
+	font-size: .6em; 
+}
+
+.boldText {
+font-weight:bold;
+
+}
+
+.redHeader {
+  color: #990033;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.TabBg {
+	background-image: url(../images/top_bg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.bottomNav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: oblique;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navBG {
+	background-image: url(../images/navBg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+
+
+#tabs {
+	float:left;
+	width:100%;
+	background:#ffffff;
+	font-size: .9em;
+	line-height:normal;
+	border-bottom:1px solid #333B66;
+	font-weight: bold;
+}
+
+#tabs ul {
+	margin:0;
+	padding:0px 10px 0 6px;
+	list-style:none;
+}
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+#tabs a {
+	float:left;
+	margin:0;
+	padding:0 0 0 6px;
+	text-decoration:none;
+}
+#tabs a span {
+	float:left;
+	display:block;
+	padding:5px 15px 4px 6px;
+	color:#000000;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	color:#993333;
+    border: 0;
+}
+	  
+.disclaimer {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: small;
+	padding-left: 40px;
+}  
+	  
+.welcome {
+	color: #993333;
+	font-weight: bold;
+	font-size: medium;
+	text-align: center;
+	border: thin solid #CCCCCC;
+	padding: 10px;
+	margin-left: 20px;
+}
+	  
+#userheader {
+        FONT-SIZE: 93%;
+		BACKGROUND: url(../images/bg.gif) #dae0d2 repeat-x 50% bottom;
+		FLOAT: left;
+		WIDTH: 100%;
+		LINE-HEIGHT: normal
+}
+#userheader UL {
+        PADDING-RIGHT: 10px;
+		PADDING-LEFT: 300px;
+		PADDING-BOTTOM: 0px;
+		MARGIN: 0px;
+		PADDING-TOP: 10px;
+		LIST-STYLE-TYPE: none
+}
+#userheader LI {
+        PADDING-RIGHT: 0px;
+		PADDING-LEFT: 9px;
+		BACKGROUND: url(../images/left.gif) no-repeat left top;
+		FLOAT: left;
+		PADDING-BOTTOM: 0px;
+		MARGIN: 0px;
+		PADDING-TOP: 0px
+}
+#userheader A {
+        PADDING-RIGHT: 15px;
+		DISPLAY: block;
+		PADDING-LEFT: 6px;
+		FONT-WEIGHT: bold;
+		BACKGROUND: url(../images/right.gif) no-repeat right top;
+		FLOAT: left;
+		PADDING-BOTTOM: 4px;
+		COLOR: #FFFFFF;
+		PADDING-TOP: 5px;
+		TEXT-DECORATION: none
+}
+#userheader A {
+        FLOAT: none
+}
+#userheader A:hover {
+        COLOR: #EEEEEE
+}
+#userheader #current {
+        BACKGROUND-IMAGE: url(../images/left_on.gif)
+}
+#userheader #current A {
+        BACKGROUND-IMAGE: url(../images/right_on.gif);
+		PADDING-BOTTOM: 5px; 
+		COLOR: #000000;
+}
+
+.postpageBg {
+	background-image: url(../images/listing1_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#catlist
+{
+padding-left: 0;
+margin-left: 0;
+border-bottom: 1px solid lightgrey;
+width: 180px;
+font-size:.8em; 
+}
+
+#catlist li
+{
+list-style: none;
+margin: 0;
+padding: 0.25em;
+border-top: 1px solid lightgrey;
+}
+
+#catlist li a { text-decoration: none; }
+
+/* agent style */
+
+.agentName {
+font-size:1.2em;
+padding-bottom:6px;
+
+}
+
+.notposted {
+font-size:.7em; 
+color:#999999;
+}
+
+.greybg {
+	border:thin #CCCCCC solid; 
+	background-image:url(../images/grey_bg.jpg); 
+	background-repeat:repeat-x; 
+	padding:8px;
+}
+
+.topborder {
+	padding:6px; 
+	border-top:thin #666666 solid;
+}
+
+.headerDate {
+    float: right;
+}
+
+.header {
+    padding: 0 0 5px 0;
+    border-top: 1px solid lightgrey;
+    font-weight: bold;
+}
+
+.content {
+    padding: 3px 0 6px 12px;
+}
+
+.contentSection {
+    margin-bottom: 20px;
+}

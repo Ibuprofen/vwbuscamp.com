@@ -11,10 +11,8 @@ include('includes/header.php');
     Most of our group's non-BRC interaction happens on our email discussion list. If you want to be involved, join up!
 </div>
 <div>
-You can subscribe and  unsubscribe yourself through the Discussion List maintenance page listed below.  Remember this is a SELF-SERVE subscribe/unsubscribe list. Don't subscribe unless  you are prepared to remove yourself if and when the time comes. You are sent a  monthy reminder of you password and subscription cancellation information. Keep  a copy or wait until a new one arrives to unsubcribe.
-</div>
-<div style="padding: 12px 0 0 12px;">
-    <a href="http://vwbuscamp.com/mailman/listinfo/vwbuscamp_vwbuscamp.com">http://vwbuscamp.com/mailman/listinfo/vwbuscamp_vwbuscamp.com</a></font></p>
+You can subscribe by sending a blank email to <a href="mailto:vwbuscamp+subscribe@vwbuscamp.com">vwbuscamp+subscribe@vwbuscamp.com</a>.<br>
+To unsubscribe email <a href="mailto:vwbuscamp+unsubscribe@vwbuscamp.com">vwbuscamp+unsubscribe@vwbuscamp.com</a>.
 </div>
 
 <?

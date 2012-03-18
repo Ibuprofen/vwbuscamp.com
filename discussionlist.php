@@ -11,8 +11,8 @@ include('includes/header.php');
     Most of our group's non-BRC interaction happens on our email discussion list. If you want to be involved, join up!
 </div>
 <div>
-You can subscribe by sending a blank email to <a href="mailto:vwbuscamp+subscribe@vwbuscamp.com">vwbuscamp+subscribe@vwbuscamp.com</a>.<br>
-To unsubscribe email <a href="mailto:vwbuscamp+unsubscribe@vwbuscamp.com">vwbuscamp+unsubscribe@vwbuscamp.com</a>.
+You can subscribe by sending a blank email to <a href="mailto:vwbuscamp+subscribe@vwbuscamp.com">vwbuscamp+subscribe@vwbuscamp.com</a><br><br>
+To unsubscribe email <a href="mailto:vwbuscamp+unsubscribe@vwbuscamp.com">vwbuscamp+unsubscribe@vwbuscamp.com</a>
 </div>
 
 <?

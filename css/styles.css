@@ -28,6 +28,9 @@ td.main {
 
 #header {
 }
+#header a {
+	text-decoration: none;
+}
 
 #headerSmall {
 	width: 640px;
@@ -153,6 +156,7 @@ a:visited {
 /* Sets the style for links on mouseover. */
 a:hover {
   color: #000;
+  text-decoration: underline;
 }
 /* Sets the style for a link that has focus. */
 a:focus {
@@ -485,6 +489,10 @@ color:#999999;
 
 .content {
     padding: 3px 0 6px 12px;
+}
+
+.content a {
+	color: #C60;
 }
 
 .contentSection {

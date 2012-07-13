@@ -4,12 +4,12 @@ include('includes/header.php');
 
 <div class="pageHeader"></div>
 
-<div class="headerDate">17jul2011</div>
-<div class="header">3:00 & Funeral!</div>
+<div class="headerDate">10jul2012</div>
+<div class="header">Edelweiss &amp; 3:15</div>
 <div class="contentSection">
     <div class="content">
-        <div style="margin: 0 0 8px 0;"><img src="images/300_funeral.png" alt="300 And Funeral" /></a></div>
-        VW Bus Camp has been found! It looks like our home for 2011 is going to be at 3:00 & Funeral, right across the street (across 3:00?) from our friends <a href="http://www.facebook.com/walterthebus">Camp Walter</a>!
+        <div style="margin: 0 0 8px 0;"><a href="images/edelweiss_315.png"><img src="images/edelweiss_315_small.png" alt="Edelweiss and 3:15" style="border: 1px solid #ccc;"/></a></div>
+        VW Bus Camp has been place! It looks like our home for 2012 is going to be at Edelweiss &amp; 3:15, right next door to our friends <a href="http://www.facebook.com/walterthebus">Camp Walter</a>!
     </div>
 </div>
 

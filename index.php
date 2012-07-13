@@ -13,11 +13,11 @@ include('includes/header.php');
     </div>
 </div>
 
-<div class="headerDate">17july2011</div>
+<!--<div class="headerDate">17july2011</div>
 <div class="header">Busy Busy Leopard Lounge</div>
 <div class="contentSection">
     <div class="content">
-        <!--<div style="margin: 0 0 8px 0"><a target="_blank" href="images/leopardlounge2_full.jpg"><img src="images/leopardlounge2.jpg" alt="Leopard Lounge" /></a></div>-->
+        <div style="margin: 0 0 8px 0"><a target="_blank" href="images/leopardlounge2_full.jpg"><img src="images/leopardlounge2.jpg" alt="Leopard Lounge" /></a></div>
         The Leopard Lounge is busy burning the midnight oil getting things all prepped and ready to roll! Its all coming along wonderfully. Make sure to pencil in a trip to the spa this year!<br/><br/>
         And one more thing - we are looking for one more massage table to have in our second (yes, second!) private massage room. If anyone is willing to donate one for the week, we would be very very grateful. And you might even get a massage and some tequila out of the deal. Holler at us on <a href="mailto:vwbuscamp@vwbuscamp.com">vwbuscamp@vwbuscamp.com</a> and let us know (make sure to check out the discussion list page if you're not already on this mailing list). Thanks!
     </div>
@@ -32,7 +32,7 @@ include('includes/header.php');
         Leopard Lounge is offering up tequila shots, massages, hair tinseling, smudging, dream hearing, live music, and good company. <strong>Foot rubbing volunteers are welcome and needed!</strong> We provide the supplies - lotions, wipes, tequila, etc. It's a great way to gift. Extra points if you come with animal, jungle, safari, or leopard attire and stuff. Come visit or come to help out!<br/><br/>
         Hopefully, we'll all remember to bring enough tequila and limes to make it through the week...
     </div>
-</div>
+</div>-->
 
 <!--<div class="headerDate">16may2011</div>
 <div class="header">Check out our submitted camp plan for 2011</div>

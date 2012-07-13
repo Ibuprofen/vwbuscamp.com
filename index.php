@@ -17,7 +17,7 @@ include('includes/header.php');
 <div class="header">Busy Busy Leopard Lounge</div>
 <div class="contentSection">
     <div class="content">
-        <div style="margin: 0 0 8px 0"><a target="_blank" href="images/leopardlounge2_full.jpg"><img src="images/leopardlounge2.jpg" alt="Leopard Lounge" /></a></div>
+        <!--<div style="margin: 0 0 8px 0"><a target="_blank" href="images/leopardlounge2_full.jpg"><img src="images/leopardlounge2.jpg" alt="Leopard Lounge" /></a></div>-->
         The Leopard Lounge is busy burning the midnight oil getting things all prepped and ready to roll! Its all coming along wonderfully. Make sure to pencil in a trip to the spa this year!<br/><br/>
         And one more thing - we are looking for one more massage table to have in our second (yes, second!) private massage room. If anyone is willing to donate one for the week, we would be very very grateful. And you might even get a massage and some tequila out of the deal. Holler at us on <a href="mailto:vwbuscamp@vwbuscamp.com">vwbuscamp@vwbuscamp.com</a> and let us know (make sure to check out the discussion list page if you're not already on this mailing list). Thanks!
     </div>
@@ -34,7 +34,7 @@ include('includes/header.php');
     </div>
 </div>
 
-<div class="headerDate">16may2011</div>
+<!--<div class="headerDate">16may2011</div>
 <div class="header">Check out our submitted camp plan for 2011</div>
 <div class="contentSection">
     <div class="content">
@@ -42,10 +42,10 @@ include('includes/header.php');
         <a target="_blank" href="images/VW_Bus_Camp_2011.jpg"><img src="images/VW_Bus_Camp_2011_small.jpg" alt="Camp Layout Map"/></a>
         <br/>Thank you from all the buses!
     </div>
-</div>
+</div>-->
 
-<div class="headerDate">16may2011</div>
-<div class="header">This year is the third year for&nbsp;our resident Mutant Vehicle - BusZilla II</div>
+<div class="headerDate">13jul2012</div>
+<div class="header">This year is the fourth year for&nbsp;our resident Mutant Vehicle - BusZilla II</div>
 <div class="contentSection">
     <div class="content">
         <div><a target="_blank" href="http://www.mutantbus.com"><img src="images/buszilla.jpg" alt="BusZilla"/></a></div>

@@ -4,22 +4,30 @@ include('includes/header.php');
 
 <div class="pageHeader"></div>
 
+<div class="headerDate">16july2012</div>
+<div class="header">Calendar Updated</div>
+<div class="contentSection">
+    <div class="content">
+        Bus Camp's calendar has been updated to reflect our public events for 2012. <a href="/calendar.php">Check it out!</a>
+    </div>
+</div>
+
+<div class="headerDate">16july2012</div>
+<div class="header">The Leopard Lounge is Back</div>
+<div class="contentSection">
+    <div class="content">
+        <div style="margin-bottom: 8px;"><img src="images/leopardlounge2012_01.png" alt="Leopard Lounge" /></div>
+        Our 5th year on the playa and a very popular daytime destination enjoyed by all who find us. Each year, we do nothing more than create a fun jungle-vibe space where you can get your feet (and body should you desire) rubbed, and share a shot of tequila with us. The Leopard Lounge runs on the kindness of strangers, so we also welcome you to join our staff and participate in the gifting of a footrub or massage, just be sure to do so with respect to personal boundaries. If you have other gifts to share: food, musical talent, energy work, manicure/pedicure, hair braiding, readings, etc., the Leopard Lounge is a great place to park yourself and offer your services. No scheduling or expectations, just gratitude for however long you want to contribute. The vibe is all things Jungle, Safari, Animal, so dress the part if you can!
+        <div style="margin-top: 8px;"><img src="images/leopardlounge_foot.png" alt="Get your feet massaged!" /></div>
+    </div>
+</div>
+
 <div class="headerDate">10jul2012</div>
 <div class="header">Edelweiss &amp; 3:15</div>
 <div class="contentSection">
     <div class="content">
         <div style="margin: 0 0 8px 0;"><a href="images/edelweiss_315.png"><img src="images/edelweiss_315_small.png" alt="Edelweiss and 3:15" style="border: 1px solid #ccc;"/></a></div>
         VW Bus Camp has been place! It looks like our home for 2012 is going to be at Edelweiss &amp; 3:15, right next door to our friends <a href="http://www.facebook.com/walterthebus">Camp Walter</a>!
-    </div>
-</div>
-
-<!--<div class="headerDate">17july2011</div>
-<div class="header">Busy Busy Leopard Lounge</div>
-<div class="contentSection">
-    <div class="content">
-        <div style="margin: 0 0 8px 0"><a target="_blank" href="images/leopardlounge2_full.jpg"><img src="images/leopardlounge2.jpg" alt="Leopard Lounge" /></a></div>
-        The Leopard Lounge is busy burning the midnight oil getting things all prepped and ready to roll! Its all coming along wonderfully. Make sure to pencil in a trip to the spa this year!<br/><br/>
-        And one more thing - we are looking for one more massage table to have in our second (yes, second!) private massage room. If anyone is willing to donate one for the week, we would be very very grateful. And you might even get a massage and some tequila out of the deal. Holler at us on <a href="mailto:vwbuscamp@vwbuscamp.com">vwbuscamp@vwbuscamp.com</a> and let us know (make sure to check out the discussion list page if you're not already on this mailing list). Thanks!
     </div>
 </div>
 
@@ -31,16 +39,6 @@ include('includes/header.php');
         As you can tell in the plan below, the <strong>Leopard Lounge</strong> is coming back for another year!<br/><br/>
         Leopard Lounge is offering up tequila shots, massages, hair tinseling, smudging, dream hearing, live music, and good company. <strong>Foot rubbing volunteers are welcome and needed!</strong> We provide the supplies - lotions, wipes, tequila, etc. It's a great way to gift. Extra points if you come with animal, jungle, safari, or leopard attire and stuff. Come visit or come to help out!<br/><br/>
         Hopefully, we'll all remember to bring enough tequila and limes to make it through the week...
-    </div>
-</div>-->
-
-<!--<div class="headerDate">16may2011</div>
-<div class="header">Check out our submitted camp plan for 2011</div>
-<div class="contentSection">
-    <div class="content">
-        Martha and Joel over at <a target="_blank" href="http://www.facebook.com/walterthebus">Camp Walter</a> have graciously helped Gary and VW Bus Camp with a plan for bus camp for BM 2011. Check her out:<br/><br/>
-        <a target="_blank" href="images/VW_Bus_Camp_2011.jpg"><img src="images/VW_Bus_Camp_2011_small.jpg" alt="Camp Layout Map"/></a>
-        <br/>Thank you from all the buses!
     </div>
 </div>-->
 

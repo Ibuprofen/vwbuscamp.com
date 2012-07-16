@@ -31,17 +31,6 @@ include('includes/header.php');
     </div>
 </div>
 
-<div class="headerDate">25may2011</div>
-<div class="header">Leopard Lounge Update</div>
-<div class="contentSection">
-    <div class="content">
-        <div><a target="_blank" href="http://www.flickr.com/photos/mintydriftwood/sets/72157624794731119/"><img src="images/leopardlounge.jpg" alt="Leopard Lounge" /></a></div>
-        As you can tell in the plan below, the <strong>Leopard Lounge</strong> is coming back for another year!<br/><br/>
-        Leopard Lounge is offering up tequila shots, massages, hair tinseling, smudging, dream hearing, live music, and good company. <strong>Foot rubbing volunteers are welcome and needed!</strong> We provide the supplies - lotions, wipes, tequila, etc. It's a great way to gift. Extra points if you come with animal, jungle, safari, or leopard attire and stuff. Come visit or come to help out!<br/><br/>
-        Hopefully, we'll all remember to bring enough tequila and limes to make it through the week...
-    </div>
-</div>-->
-
 <div class="headerDate">13jul2012</div>
 <div class="header">This year is the fourth year for&nbsp;our resident Mutant Vehicle - BusZilla II</div>
 <div class="contentSection">

@@ -2,9 +2,9 @@
 include('includes/header.php');
 ?>
 
-<div class="pageHeader">BRC 2012 :: VW Bus Camp's Calendar of Events</div>
+<div class="pageHeader">Check back for 2013 events.</div>
 
-<div class="header">Monday</div>
+<!--<div class="header">Monday</div>
 <div class="contentSection">
     <div class="content">
         <strong>All Day</strong>: <a href="http://playaevents.burningman.com/2012/playa_event/7086/" target="_blank">Leopard Lounge Day Spa &amp; Tequila Bar</a> - Our 5th year on the playa and a very popular daytime destination enjoyed by all who find us. Each year, we do nothing more than create a fun jungle-vibe space where you can get your feet (and body should you desire) rubbed, and share a shot of tequila with us. The Leopard Lounge runs on the kindness of strangers, so we also welcome you to join our staff and participate in the gifting of a footrub or massage, just be sure to do so with respect to personal boundaries. If you have other gifts to share: food, musical talent, energy work, manicure/pedicure, hair braiding, readings, etc., the Leopard Lounge is a great place to park yourself and offer your services. No scheduling or expectations, just gratitude for however long you want to contribute. The vibe is all things Jungle, Safari, Animal, so dress the part if you can!
@@ -86,7 +86,7 @@ include('includes/header.php');
         <strong>10AM - 2PM</strong>: <a href="http://playaevents.burningman.com/2012/playa_event/6311/" target="_blank">Burners Without Matches</a>
     </div>
 
-</div>
+</div>-->
 
 
 <?

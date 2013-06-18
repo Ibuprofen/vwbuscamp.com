@@ -4,7 +4,7 @@ include('includes/header.php');
 
 <div class="pageHeader"></div>
 
-<div class="headerDate">16july2012</div>
+<!--<div class="headerDate">16july2012</div>
 <div class="header">Calendar Updated</div>
 <div class="contentSection">
     <div class="content">
@@ -42,7 +42,7 @@ include('includes/header.php');
             We are still in need of funds, please <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3817689">&lt;&lt;donate here&gt;&gt;</a>
         </div>
     </div>
-</div>
+</div>-->
 
 <div class="headerDate">2010</div>
 <div class="header">Once Upon a Time - The History of VW Bus Camp</div>

@@ -1,10 +1,10 @@
 <div class="sidebaritem">
     <img src="images/vwbuscamp_logo.png" alt="VWBusCamp"/>
 </div>
-<!--<div class="sidebaritem" style="margin-top: 12px;">
-    <strong>Our new home!</strong>
-    <div style="text-align:center">Edelweiss &amp; 3:15</div>
-</div>-->
+<div class="sidebaritem" style="margin-top: 12px;">
+    <strong>Our home for 2013:</strong>
+    <div style="text-align:center">Extraterrestrial &amp; 2:45</div>
+</div>
 <div class="sidebaritem">
     <a href="discussionlist.php">Click here to join the discussion list!</a>
 </div>

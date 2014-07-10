@@ -2,8 +2,8 @@
     <img src="images/vwbuscamp_logo.png" alt="VWBusCamp"/>
 </div>
 <div class="sidebaritem" style="margin-top: 12px;">
-    <strong>Our home for 2013:</strong>
-    <div style="text-align:center">Extraterrestrial &amp; 2:45</div>
+    <strong>Our home for 2014:</strong>
+    <div style="text-align:center">4:00 &amp; Basra</div>
 </div>
 <div class="sidebaritem">
     <a href="discussionlist.php">Click here to join the discussion list!</a>

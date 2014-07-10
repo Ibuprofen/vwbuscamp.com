@@ -2,7 +2,7 @@
 include('includes/header.php');
 ?>
 
-<div class="pageHeader">Check back for 2013 events.</div>
+<div class="pageHeader">Check back for 2014 events.</div>
 
 <!--<div class="header">Monday</div>
 <div class="contentSection">

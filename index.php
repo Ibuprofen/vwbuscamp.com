@@ -12,12 +12,12 @@ include('includes/header.php');
     </div>
 </div>-->
 
-<div class="headerDate">15aug2013</div>
+<div class="headerDate">15aug2014</div>
 <div class="header">The Leopard Lounge is Back</div>
 <div class="contentSection">
     <div class="content">
-        <div style="margin-bottom: 8px;"><img src="images/leopardlounge2013_01.png" alt="Leopard Lounge" /></div>
-        Our 6th year on the playa and a very popular daytime destination enjoyed by all who find us. Each year, we do nothing more than create a fun jungle-vibe space where you can get your feet (and body should you desire) rubbed, and share a shot of tequila with us. The Leopard Lounge runs on the kindness of strangers, so we also welcome you to join our staff and participate in the gifting of a footrub or massage, just be sure to do so with respect to personal boundaries. If you have other gifts to share: food, musical talent, energy work, manicure/pedicure, hair braiding, readings, etc., the Leopard Lounge is a great place to park yourself and offer your services. No scheduling or expectations, just gratitude for however long you want to contribute. The vibe is all things Jungle, Safari, Animal, so dress the part if you can!
+        <div style="margin-bottom: 8px;"><img src="images/leopardlounge03.png" alt="Leopard Lounge" /></div>
+        Our 7th year on the playa and a very popular daytime destination enjoyed by all who find us. Each year, we do nothing more than create a fun jungle-vibe space where you can get your feet (and body should you desire) rubbed, and share a shot of tequila with us. The Leopard Lounge runs on the kindness of strangers, so we also welcome you to join our staff and participate in the gifting of a footrub or massage, just be sure to do so with respect to personal boundaries. If you have other gifts to share: food, musical talent, energy work, manicure/pedicure, hair braiding, readings, etc., the Leopard Lounge is a great place to park yourself and offer your services. No scheduling or expectations, just gratitude for however long you want to contribute. The vibe is all things Jungle, Safari, Animal, so dress the part if you can!
         <div style="margin-top: 8px;"><img src="images/leopardlounge_foot.png" alt="Get your feet massaged!" /></div>
     </div>
 </div>

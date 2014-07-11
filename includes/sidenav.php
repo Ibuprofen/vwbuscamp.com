@@ -3,7 +3,7 @@
 </div>
 <div class="sidebaritem" style="margin-top: 12px;">
     <strong>Our home for 2014:</strong>
-    <div style="text-align:center">4:00 &amp; Basra</div>
+    <div style="text-align:center"><h2>4:00 &amp; Basra</h2></div>
 </div>
 <div class="sidebaritem">
     <a href="discussionlist.php">Click here to join the discussion list!</a>

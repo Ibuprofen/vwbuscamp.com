@@ -1,6 +1,7 @@
 <?
 
 include('includes/header.php');
+include('includes/sidenav_header.php');
 
 ?>
 
@@ -16,5 +17,6 @@ To unsubscribe email <a href="mailto:vwbuscamp+unsubscribe@vwbuscamp.com">vwbusc
 </div>
 
 <?
+include('includes/sidenav_footer.php');
 include('includes/footer.php');
 ?>

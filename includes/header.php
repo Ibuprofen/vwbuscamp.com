@@ -8,13 +8,14 @@
 <meta http-equiv="Expires" content="25" />
 <meta name="description" content="VW Bus Camp"  />
 <meta name="Author" content="VwDreamer" />
-<link rel="shortcut icon" href="http://vwbuscamp.com/favicon.ico" />
+<link rel="shortcut icon" href="//vwbuscamp.com/favicon.ico" />
 <meta name="description" content="The off-playa home of VW Bus Camp."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="all"/>
 <meta name="copyright" content="Copyright"/>
 
 <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<?php if ($header_end) echo $header_end; ?>
 </head>
 <body>
 <center>
@@ -32,18 +33,3 @@
         </tr>
     </table>
     <div>
-        <table width="100%" cellpadding="0" cellspacing="0" border="0">
-            <tr>
-                <?php //if(!isset($_SESSION["ULevel"])) {  
-                $contentID = "content"; 
-                ?>
-                <td valign="top">
-                    <div id="sidebar">
-                        <? include('includes/sidenav.php'); ?>
-                    </div>
-                </td>
-                <?php  //} else {
-                    //$contentID = "contentAdmin"; 
-                //} ?>
-                <td valign="top">
-                    <div id="<?php echo $contentID; ?>">	

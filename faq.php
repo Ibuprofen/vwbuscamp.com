@@ -1,6 +1,7 @@
 <?
 
 include('includes/header.php');
+include('includes/sidenav_header.php');
 
 ?>
 
@@ -68,5 +69,6 @@ North of Reno Nevada, just outside a little town called <a href="http://www.burn
     <div class="content">A. Yes, I think a bike is essential. The city has just gotten  to big to navigate on foot. Leave the $1200 mtn bike with 26 gears and gas  filled shocks at home. Buy a beater bike, a one speed beach cruiser with coaster  brake is optimal for the playa. For safe night ridding , a flashing red LED in  back and a white light in front work great. I have seen some nasty collisions at  night between cyclists that didn't see each other. The lights also help you keep  track of your group when cruising around, especially if they are unique. For  more information see the Burning Man <a href="http://www.burningman.com/preparation/event_survival/bikes.html" target="_blank">Bike  Guide</a> </div>
 
 <?
+include('includes/sidenav_footer.php');
 include('includes/footer.php');
 ?>

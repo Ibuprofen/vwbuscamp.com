@@ -1,5 +1,6 @@
 <?
 include('includes/header.php');
+include('includes/sidenav_header.php');
 ?>
 
 <div class="pageHeader"></div>
@@ -53,5 +54,6 @@ include('includes/header.php');
 </div>
 
 <?
+include('includes/sidenav_footer.php');
 include('includes/footer.php');
 ?>

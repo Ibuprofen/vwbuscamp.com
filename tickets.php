@@ -10,7 +10,7 @@ $header_end = <<<EOT
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.10.1/validator.min.js"></script>
 
-  <script type="text/javascript" src="js/tickets.js"></script>
+  <script type="text/javascript" src="js/tickets.js?v=1"></script>
 
   <style type="text/css">
     body { font: normal 11px/18px verdana, arial, tahoma, sans-serif; }

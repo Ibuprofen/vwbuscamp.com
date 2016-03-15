@@ -8,6 +8,7 @@ $header_end = <<<EOT
 
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.10.1/validator.min.js"></script>
 
   <script type="text/javascript" src="js/tickets.js"></script>
 
@@ -18,11 +19,13 @@ $header_end = <<<EOT
     .table td.vert-align { vertical-align: middle; }
     label { margin-bottom: 0; }
     .hide { display: none; }
-    #page { 
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    #page {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 1rem;
     }
     #survey-form { margin: 25px 0 25px 0; }
+    .help-block ul { margin: 0; }
+    .form-group { margin-bottom: 0; }
   </style>
 EOT;
 
@@ -39,7 +42,7 @@ include('includes/header.php');
         <div class="row">
 
           <div class="col-md-12">
-            <form>
+            <form role="form" data-toggle="validator">
               <table class="table table-striped">
                 <tbody>
                   <tr>
@@ -47,7 +50,10 @@ include('includes/header.php');
                       <label for="name">Name</label>
                     </td>
                     <td>
-                        <input type="text" class="form-control name" placeholder="Larry Harvey">
+                      <div class="form-group">
+                        <div class="help-block with-errors"></div>
+                        <input type="text" class="form-control name" placeholder="Larry Harvey" data-error="Enter a name" required>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -55,7 +61,10 @@ include('includes/header.php');
                       <label for="email">Email address</label>
                     </td>
                     <td>
-                      <input type="email" class="form-control email" placeholder="blah@example.com">
+                      <div class="form-group">
+                        <div class="help-block with-errors"></div>
+                        <input type="email" class="form-control email" placeholder="blah@example.com" data-error="Enter an email address" required>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -66,7 +75,10 @@ include('includes/header.php');
                       </select>
                     </td>
                     <td>
-                        <input type="number" class="form-control ticket-qty" placeholder="2">
+                      <div class="form-group">
+                        <div class="help-block with-errors"></div>
+                        <input type="number" class="form-control ticket-qty" placeholder="2" data-error="Enter a number" required>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -78,11 +90,15 @@ include('includes/header.php');
                       </select>
                     </td>
                     <td>
-                        <input type="number" class="form-control vp-qty" placeholder="1">
+                      <div class="form-group">
+                        <div class="help-block with-errors"></div>
+                        <input type="number" class="form-control vp-qty" placeholder="1" data-error="Enter a number" required>
+                      </div>
                     </td>
                   </tr>
                   <tr>
                     <td colspan="2" style="text-align: center;">
+                        <div class="help-block with-errors"></div>
                       <button type="submit" class="btn btn-primary submit-button">Submit</button>
                     </td>
                   </tr>
@@ -106,10 +122,10 @@ include('includes/header.php');
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title" id="myModalLabel">Great Success</h4>
           </div>
-          <div class="modal-body">Your infos have been submitted! If you'd like to view the spreadsheet it is located <a href="https://docs.google.com/spreadsheets/d/1UeFk4sXTy3k265kPQVtsAY4J3mwfNMyJlc2cxlFHFOI">here</a>.</div>
+          <div class="modal-body">Your infos have been submitted! Thanks.</div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default hide" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">View the Spreadsheet</button>
           </div>
         </div>
       </div>

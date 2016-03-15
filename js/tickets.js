@@ -3,26 +3,10 @@ $(document).ready(function() {
 
   var $form = $('form');
 
-  var dateTimeNow = function() {
-
-    var d = new Date,
-        dWithFormat;
-
-    dWithFormat = [d.getMonth()+1,
-                   d.getDate(),
-                   d.getFullYear()].join('/')+' '+
-                  [d.getHours(),
-                   d.getMinutes(),
-                   d.getSeconds()].join(':');
-
-    return dWithFormat;
-  };
-
-
   var formData = function() {
 
     return {
-      'date submitted': dateTimeNow(),
+      'date submitted': '=NOW()',
       'sale type': 'main',
       'name': $form.find('.name').val(),
       'email': $form.find('.email').val(),
@@ -36,36 +20,56 @@ $(document).ready(function() {
   };
 
 
-  $('form').submit(function(e) {
-    e.preventDefault();
+  $form.validator().on('submit', function (e) {
 
-    var $modal = $('#myModal');
+    if (e.isDefaultPrevented()) {
+      // invalid form
 
-    $form.find('.submit-button').prop('disabled', true);
+    } else {
 
-    $.ajax({
-      url: 'https://script.google.com/macros/s/AKfycbyUpXwIK_lIA58QSnB-x31ggKSPr0cSQsXhRf3wTzRFHPrs8kM/exec',
-      type: 'post',
-      data: formData()
-    })
-    .done(function(res) {
-      if (res.error) {
-        console.error(res.error);
-        console.log(res.error.stack);
-      }
-      // success, modal with link to the spreadsheet
-      $modal.modal('show');
-    })
-    .fail(function(res) {
-      $form.find('.submit-button').prop('disabled', false);
+      e.preventDefault();
 
-      $modal.find('.modal-title')[0].innerText = 'Crap';
-      $modal.find('.modal-body')[0].innerText = "Something went wrong!";
-      $modal.modal('show');
-    });
+      var $modal = $('#myModal');
+
+      $form.find('.submit-button').prop('disabled', true);
+
+        $modal.on('click', '.btn-primary', function(e) {
+          e.preventDefault();
+
+          // this is silly but should probably keep any crawlers away
+          var url = "aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hlZXRzL2QvMVVlRms0c1hUeTNrMjY1a1BRVnRzQVk0SjNtd2ZOTXlKbGMyY3hsRkhGT0k=";
+
+          window.location = window.atob(url);
+
+        });
 
 
+      $.ajax({
+        url: 'https://script.google.com/macros/s/AKfycbyUpXwIK_lIA58QSnB-x31ggKSPr0cSQsXhRf3wTzRFHPrs8kM/exec',
+        type: 'post',
+        data: formData()
+      })
+      .done(function(res) {
+        if (res.error) {
+          console.error(res.error);
+          console.log(res.error.stack);
+        }
+
+        // success, modal with link to the spreadsheet
+        $modal.modal('show');
+      })
+      .fail(function(res) {
+        $form.find('.submit-button').prop('disabled', false);
+
+        $modal.find('.btn-primary').hide();
+        $modal.find('.modal-title')[0].innerText = 'Crap';
+        $modal.find('.modal-body')[0].innerText = "Something went wrong!";
+        $modal.modal('show');
+      });
+
+    }
   });
+
 
 });
 

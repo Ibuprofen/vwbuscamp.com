@@ -2,8 +2,8 @@
     <img src="images/vwbuscamp_logo.png" alt="VWBusCamp"/>
 </div>
 <div class="sidebaritem" style="margin-top: 12px;">
-    <strong>Our home for 2015:</strong>
-    <div style="text-align:center"><h2>2:30 &amp; Freak Show</h2></div>
+    <strong>Our home for 2016:</strong>
+    <div style="text-align:center"><h2>High Renaissance &amp; 3:15</h2></div>
 </div>
 <div class="sidebaritem">
     <a href="discussionlist.php">Click here to join the discussion list!</a>

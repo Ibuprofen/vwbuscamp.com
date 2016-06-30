@@ -52,7 +52,7 @@ include('includes/header.php');
                     <td>
                       <div class="form-group">
                         <div class="help-block with-errors"></div>
-                        <input type="text" class="form-control name" placeholder="Larry Harvey" data-error="Enter a name" required>
+                        <input type="text" class="form-control name" placeholder="Leonardo Da Vinci" data-error="Enter a name" required>
                       </div>
                     </td>
                   </tr>

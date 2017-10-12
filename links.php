@@ -12,7 +12,8 @@ include('includes/sidenav_header.php');
     <div class="content">For the pre 68's folks -<a target="_blank" href="http://www.vintagebus.com/">www.vintagebus.com</a></div>
     <div class="content">Another great Bus site - <a target="_blank" href="http://www.thesamba.com/vw/">www.thesamba.com</a></div>
     <div class="content">And of yes Vanagon's are buses too - <a target="_blank" href="http://www.vanagon.com/">www.vanagon.com</a> </div>
-    <div class="content">More Bus related information <a target="_blank" href="http://www.lovemybus.com/">www.lovemybus.com</a></div>
+    <div class="content">More Bus related information - <a target="_blank" href="http://www.lovemybus.com/">www.lovemybus.com</a></div>
+    <div class="content">79 Inspiring Vanlife Nomads - <a target="_blank" href="https://mightygoods.com/vanlife/">mightygoods.com/vanlife/</a></div>
 </div>
 <div class="header">Surviving Burning Man</div>
 <div class="contentSection">

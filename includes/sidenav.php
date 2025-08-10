@@ -2,8 +2,8 @@
     <img src="images/vwbuscamp_logo.png" alt="VWBusCamp"/>
 </div>
 <div class="sidebaritem" style="margin-top: 12px;">
-    <strong>Our home for 2023:</strong>
-    <div style="text-align:center"><h2>4:00 &amp; Encantado</h2></div>
+    <strong>Our home for 2025:</strong>
+    <div style="text-align:center"><h2>2:45 &amp; Dick</h2></div>
 </div>
 <div class="sidebaritem">
     <a href="discussionlist.php">Click here to join the discussion list!</a>

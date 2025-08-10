@@ -28,7 +28,7 @@
             <td class="navbutton" style="border-left: 0px;"><a style="color: white;" href="./index.php">Home</a></td>
             <td class="navbutton"><a style="color: white;" href="./discussionlist.php">Discussion List</a></td>
             <td class="navbutton"><a style="color: white;" href="./faq.php">FAQ</a></td>
-            <td class="navbutton"><a style="color: white;" href="https://playaevents.burningman.org/playa_event/search/all/?q=vw+bus+camp" target="_blank">Calendar</a></td>
+            <td class="navbutton"><a style="color: white;" href="https://playaevents.burningman.org/playa_event/search/?q=vw+bus+camp" target="_blank">Calendar</a></td>
             <td class="navbutton"><a style="color: white;" href="./links.php">Links</a></td>
         </tr>
     </table>

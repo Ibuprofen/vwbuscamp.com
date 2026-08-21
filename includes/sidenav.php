@@ -2,7 +2,7 @@
     <img src="images/vwbuscamp_logo.png" alt="VWBusCamp"/>
 </div>
 <div class="sidebaritem" style="margin-top: 12px;">
-    <strong>Our home for 2025:</strong>
+    <strong>Our home for 2026:</strong>
     <div style="text-align:center"><h2>3:30 &amp; Delphi</h2></div>
 </div>
 <div class="sidebaritem">

@@ -3,7 +3,7 @@
 </div>
 <div class="sidebaritem" style="margin-top: 12px;">
     <strong>Our home for 2025:</strong>
-    <div style="text-align:center"><h2>2:45 &amp; Dick</h2></div>
+    <div style="text-align:center"><h2>3:30 &amp; Delphi</h2></div>
 </div>
 <div class="sidebaritem">
     <a href="discussionlist.php">Click here to join the discussion list!</a>

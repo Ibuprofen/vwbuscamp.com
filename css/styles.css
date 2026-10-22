@@ -499,3 +499,15 @@ color:#999999;
 .contentSection {
     margin-bottom: 20px;
 }
+
+/* Make the whole orange button clickable, not just the text */
+.navbutton a,
+.navbutton a:link,
+.navbutton a:visited,
+.navbutton a:hover,
+.navbutton a:focus,
+.navbutton a:active {
+	display: block;
+	padding: 1px;
+	color: #fff;
+}
